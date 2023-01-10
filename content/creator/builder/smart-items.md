@@ -10,6 +10,10 @@ aliases:
 url: /creator/builder/smart-items
 ---
 
+{{< hint info >}}
+**💡 Tip**:  Currently, you cannot create new smart items using the latest versions of the decentraland cli and ecs library. It may be possible to use older versions of both code bases to successfully compile a smart item. 
+{{< /hint >}}
+
 Smart items are Builder items that come with their own built-in interactive behavior.
 
 They often have fields that can be configured, like a text field in a sign post. They also can trigger actions on other items, for example a button smart item can call a door smart item to open it.
